@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2689" started-at="2021-07-21T20:08:20 IST" finished-at="2021-07-21T20:08:23 IST">
+  <suite name="Default suite" duration-ms="3421" started-at="2021-09-18T20:12:45 IST" finished-at="2021-09-18T20:12:49 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2689" started-at="2021-07-21T20:08:20 IST" finished-at="2021-07-21T20:08:23 IST">
-      <class name="TestCases.TestHamcrest">
-        <test-method status="PASS" signature="testHamcrest()[pri:0, instance:TestCases.TestHamcrest@33c7e1bb]" name="testHamcrest" duration-ms="2651" started-at="2021-07-21T20:08:20 IST" finished-at="2021-07-21T20:08:23 IST">
+    <test name="Default test" duration-ms="3421" started-at="2021-09-18T20:12:45 IST" finished-at="2021-09-18T20:12:49 IST">
+      <class name="JiraAPITest.AddComment">
+        <test-method status="PASS" signature="commentIssue()[pri:0, instance:JiraAPITest.AddComment@2781e022]" name="commentIssue" duration-ms="2683" started-at="2021-09-18T20:12:45 IST" description="Adding comment with body" finished-at="2021-09-18T20:12:48 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHamcrest -->
-      </class> <!-- TestCases.TestHamcrest -->
+        </test-method> <!-- commentIssue -->
+        <test-method status="PASS" signature="commentIssueUsingEditMethod()[pri:0, instance:JiraAPITest.AddComment@2781e022]" name="commentIssueUsingEditMethod" duration-ms="703" started-at="2021-09-18T20:12:48 IST" description="Adding comment with edit issue methods" finished-at="2021-09-18T20:12:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentIssueUsingEditMethod -->
+      </class> <!-- JiraAPITest.AddComment -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
